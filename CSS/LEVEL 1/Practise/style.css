@@ -1,0 +1,16 @@
+#box {
+    background-color: blue;
+    color: white;
+}
+
+/* .heading {
+     color: red;      
+} */
+
+ h1,h2,h3 {          /*  Another way to colourup */
+    color: red;
+}
+
+button {
+    background-color: greenyellow;
+}
