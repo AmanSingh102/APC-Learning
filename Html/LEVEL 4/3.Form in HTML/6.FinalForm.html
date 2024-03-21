@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <header> </header>
+    <main>
+        <h4>Registion Form</h4>
+        <Form action="/action.php">
+            <input type="text" placeholder="usernamne"> 
+            <br/> <br/>
+            <input type="password" placeholder="password">
+
+            <h5>Select your Class</h5>
+            <label for="101"> 
+            <input type="radio" value="Class XI" name="Class" id="101">Class XI
+            </label>
+            <br/>
+            <label for="102">
+            <input type="radio" value="Class XII" name="Class" id="102">Class XII
+            </label>
+
+            <h5>Select your Favourate Subject</h5>
+            <label for="math">
+                <input type="checkbox" value="math" name="subject" id="101">Math  
+            </label> <br/>
+            <label for="science">
+                <input type="checkbox" value="science" name="subject" id="102">Science  
+            </label> <br/>
+            <label for="social">
+                <input type="checkbox" value="social" name="subject" id="103">Social  
+            </label> <br/>
+            <label for="english">
+                <input type="checkbox" value="english" name="subject" id="104">English  
+            </label>  <br/>
+            <label for="hindi">
+                <input type="checkbox" value="hindi" name="subject" id="105">Hindi  
+            </label>
+            <br><br>
+            Select Your City
+            <select name="city">
+             <option value="Delhi">Delhi</option>
+             <option value="Patna">Patna</option>
+             <option value="Gangtok">Gangtok</option>
+             <option value="Shilong">Shilong</option>
+             <option value="Guhati">Guhati</option>
+            </select>
+            <br> <br>  
+            <textarea name="feedback" id="105" placeholder="Please give your feedback" rows="5"></textarea>
+            <br>
+            <input type="submit" value="submit">
+        </Form>
+    </main>
+    <footer> </footer>
+     
+</body>
+</html>
