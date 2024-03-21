@@ -1,0 +1,22 @@
+div {
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+    /* background-color: rgba(255,0,0,0.5); */
+}
+
+#box1 {
+    background-color: rgba(100,0,0,0.2);
+}
+
+#box2 {
+    background-color: rgba(100,0,0,0.75);
+}
+
+#box3 {
+    background-color: rgba(100,0,0,1);
+}
+
+

@@ -1,0 +1,21 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(5);
+    transition-delay: 1s; */
+    transition: all 2s steps(5) 1s;     /* SHORTHAND */
+}
+
+div:hover {
+    background-color : purple;
+    color: white;
+    font-size: 20px;
+}
+
+div:active {
+    background-color: red;
+}

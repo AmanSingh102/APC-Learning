@@ -1,0 +1,15 @@
+#box1 {
+    height: 100px;
+    width: 200px;
+    background-color: yellowgreen;
+    font-size: 10px;
+}
+
+#box2 {
+    height: 50px;
+    width: 30%;
+    background-color: red;
+    margin-left: 10%;
+    font-size: 2em;      /* 2em means 2 x 10px(parents font size) = 20px */
+    width: 5em;          /* but in width  5 x 2em(apne box ka font size lega) = 5 x 20px = 100px */
+}

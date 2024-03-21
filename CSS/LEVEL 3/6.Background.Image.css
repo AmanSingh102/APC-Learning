@@ -1,0 +1,21 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+/* body {
+    background-image: url(6.png);
+    background-size: cover;
+} */
+
+body {
+    background-color: pink;
+}
+
+#box1 {
+    background-image: url(6.1.png);
+    background-size: cover;
+}
